@@ -1,5 +1,5 @@
 body{
-	background-color: #f0f0f0;
+	background-color: #000;
 }
 
 
@@ -10,10 +10,11 @@ body{
 	position: relative;
 	text-align: center;
 	color: #fff;
-	font-size: 45px;
+	font-size: 30px;
 	top: -500px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-top: 180px;
+	padding-left: 250px;
+	padding-right: 250px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -22,4 +23,8 @@ body{
 div.title:hover,
 a.wrapper:hover + div{
 	display: block;
+}
+
+img{
+	margin-left: 200px;
 }

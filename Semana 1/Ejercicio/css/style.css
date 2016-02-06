@@ -1,0 +1,24 @@
+body{
+	background-color: #f7f3cb;
+	font-family: "Helvetica", Arial, sans-serif;
+}
+
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
+
+.persona{
+	width: 305px;
+	height: 600px;
+}
+
+div + div{
+	margin: 5px;
+}
+
+img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}

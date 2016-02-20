@@ -1,45 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Ejercicio</title>
-
-<style>
-
-h1 {
-	font-family: sans-serif;
-	text-align: center;
-}
-
-.effects li a {
-	display: block;
-	width: 31px;
-	height: 29px;
-	margin: 0 auto;
-	margin-bottom: 10px;
-	background: url(download/effects.png);
-	text-indent: -9999px;
-}
-	
-</style>
-
-</head>
-<body>
-
-	<h1>Imagen sobre audio</h1>
-
-				<ul class="effects">
-				<li><a href="#current" onclick="clicksound1.playclip()">Efecto 1</a></li>
-				<li><a href="#current" onclick="clicksound2.playclip()">Efecto 2</a></li>
-				<li><a href="#current" onclick="clicksound3.playclip()">Efecto 3</a></li>
-				<li><a href="#current" onclick="clicksound4.playclip()">Efecto 4</a></li>
-				</ul> <!-- /.effects -->
-
-				<iframe src="https://player.vimeo.com/video/154629750" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-
-	<script>
-		var html5_audiotypes = { //define la lista de las extensiones de los sonidos. 
+var html5_audiotypes = { //define la lista de las extensiones de los sonidos. 
 			"mp3": "audio/mpeg",
 			"mp4": "audio/mp4",
 			"ogg": "audio/ogg",
@@ -80,7 +39,3 @@ h1 {
 		var clicksound2=createsound("download/Telephone Ring 02.oggvorbis.ogg", "download/Telephone Ring 02.wav")
 		var clicksound3=createsound("download/Tune FM Radio 01.oggvorbis.ogg", "download/Tune FM Radio 01.wav")
 		var clicksound4=createsound("download/Walkie Talkie Chatter 02.oggvorbis.ogg", "download/Walkie Talkie Chatter 02.wav")
-
-		</script>	
-</body>
-</html>

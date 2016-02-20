@@ -2,31 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Ejercicio</title>
-
-<style>
-
-h1 {
-	font-family: sans-serif;
-	text-align: center;
-}
-
-.effects li a {
-	display: block;
-	width: 31px;
-	height: 29px;
-	margin: 0 auto;
-	margin-bottom: 10px;
-	background: url(download/effects.png);
-	text-indent: -9999px;
-}
-	
-</style>
-
+	<title>Tarea_02 Audio</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-	<h1>Imagen sobre audio</h1>
+	<h1>Comunication Sounds</h1>
+	<h2>&iquest;Can you identify them&#63;</h2>
+		<p>These sounds are element found in comunication, identify them.</p>
 
 				<ul class="effects">
 				<li><a href="#current" onclick="clicksound1.playclip()">Efecto 1</a></li>
@@ -35,8 +20,7 @@ h1 {
 				<li><a href="#current" onclick="clicksound4.playclip()">Efecto 4</a></li>
 				</ul> <!-- /.effects -->
 
-				<iframe src="https://player.vimeo.com/video/154629750" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/XCc6-qr0Gww" frameborder="0" allowfullscreen></iframe>
 
 	<script>
 		var html5_audiotypes = { //define la lista de las extensiones de los sonidos. 
@@ -76,11 +60,11 @@ h1 {
 
 		//Iniciar los sonidos:
 
-		var clicksound1=createsound("download/Aerosal Can 11.oggvorbis.ogg", "download/Aerosal Can 11.wav")
-		var clicksound2=createsound("download/Telephone Ring 02.oggvorbis.ogg", "download/Telephone Ring 02.wav")
-		var clicksound3=createsound("download/Tune FM Radio 01.oggvorbis.ogg", "download/Tune FM Radio 01.wav")
-		var clicksound4=createsound("download/Walkie Talkie Chatter 02.oggvorbis.ogg", "download/Walkie Talkie Chatter 02.wav")
+		var clicksound1=createsound("sounds/Aerosal Can 11.oggvorbis.ogg", "sounds/Aerosal Can 11.wav")
+		var clicksound2=createsound("sounds/Telephone Ring 02.oggvorbis.ogg", "sounds/Telephone Ring 02.wav")
+		var clicksound3=createsound("sounds/Tune FM Radio 01.oggvorbis.ogg", "sounds/Tune FM Radio 01.wav")
+		var clicksound4=createsound("sounds/Walkie Talkie Chatter 02.oggvorbis.ogg", "sounds/Walkie Talkie Chatter 02.wav")
 
-		</script>	
+	</script>	
 </body>
 </html>

@@ -1,0 +1,40 @@
+body{
+	background-color: #c8c8c8;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 50px;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 1em;
+	margin-bottom: 50px;
+}
+
+.effects li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin-left: 800px;
+	margin-bottom: 10px;
+	background: url(../images/sound.png);
+	text-indent: -9999px;
+	color: transparent;
+}
+
+iframe{
+	margin-left: 560px;
+	margin-top: 50px;
+}

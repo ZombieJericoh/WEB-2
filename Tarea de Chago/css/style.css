@@ -1,0 +1,329 @@
+body{
+	background-color: #ffa551;
+	height: 100%;
+	width: 19585px;
+}
+
+.container00, .container01, .container02, .container03, .container04, .container05,
+.container06, .container07, .container08, .container09, .container10{
+	height: 850px;
+	width: 1600px;
+	margin-top: 45px;
+	margin-right: 150px;
+	margin-left: 35px;
+	float: left;
+	text-align: left;
+}
+
+.container00{
+	background-color: #9c4c00;
+	color: #fff;
+	text-align: center;
+}
+
+.container00 > h1{
+	margin-top: 350px;
+	font-size: 2.3em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container00 > h2{
+	margin-top: 10px;
+	font-size: 3.5em;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.container01{
+	background-image: url(../images/time01.jpg);
+	background-color: #000;
+	color: cyan;
+
+}
+
+.container01 > h2{
+	margin-top: 65px;
+	font-size: 1.3em;
+	margin-left: 50px;
+	color: #fff;
+}
+
+.text1{
+	margin-top: 10px;
+	font-size: 2em;
+	margin-left: 50px;
+	font-family: 'Vollkorn', serif;
+	z-index: 5;
+}
+
+.change1{
+	margin-top: -210px;
+	font-size: 1.2em;
+	margin-left: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	z-index: 0;
+}
+
+.container02{
+	background-image: url(../images/time02.jpg);
+	opacity: 0.9;
+	background-color: #000;
+	color: #fff;
+
+}
+
+.container02 > h2{
+	margin-top: 250px;
+	font-size: 1.3em;
+	margin-left: 100px;
+}
+
+.text2{
+	margin-top: 10px;
+	font-size: 2em;
+	margin-left: 100px;
+	font-family: 'Vollkorn', serif;
+}
+
+.change2{
+	margin-top: -250px;
+	font-size: 1.5em;
+	margin-left: 500px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	-webkit-transform: rotate(-18deg);
+}
+
+.container03{
+	background-image: url(../images/time03.jpg);
+	background-color: #000;
+	color: #fff;
+
+}
+
+.container03 > h2{
+	margin-top: 170px;
+	font-size: 1.3em;
+	margin-left: 100px;
+
+}
+
+.text3{
+	margin-top: 0px;
+	font-size: 2em;
+	margin-left: 100px;
+	font-family: 'Playfair Display', serif;
+	color: cyan;
+	font-weight: bold;
+}
+
+.change32{
+	margin-top: -200px;
+	font-size: 2.5em;
+	margin-left: 1100px;
+	font-family: 'Dosis', sans-serif;
+	color: #ff4709;
+}
+
+.container04{
+	background-image: url(../images/time04.jpg);
+	background-color: #000;
+	color: #000;
+
+}
+
+.container04 > h2{
+	margin-top: 80px;
+	font-size: 1.3em;
+	margin-left: 1280px;
+}
+
+.text4{
+	margin-top: 25px;
+	font-size: 2em;
+	margin-left: 1280px;
+	font-family: 'Vollkorn', serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.change4{
+	margin-top: 0px;
+	font-size: 1.5em;
+	margin-left: 1280px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.container05{
+	background-image: url(../images/time05.jpg);
+	background-color: #000;
+	color: #fff;
+
+}
+
+.container05 > h2{
+	margin-top: 350px;
+	font-size: 1.3em;
+	margin-left: 1200px;
+}
+
+.text5{
+	margin-top: 10px;
+	font-size: 1.7em;
+	margin-left: 1200px;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+}
+
+.change5{
+	margin-top: 40px;
+	font-size: 1.7em;
+	margin-left: 1200px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.container06{
+	background-image: url(../images/time06.jpg);
+	background-color: #000;
+	color: #000;
+
+}
+
+.container06 > h2{
+	margin-top: 200px;
+}
+
+.text6{
+	margin-top: 10px;
+	font-size: 2.5em;
+	margin-left: 1250px;
+	font-family: 'Indie Flower', cursive;
+	letter-spacing: 2px;
+	text-align: right;
+	margin-right: 50px;
+	font-weight: 600;
+}
+
+.change6{
+	margin-top: 0px;
+	font-size: 2.5em;
+	margin-left: 1250px;
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing: 2px;
+	text-align: right;
+	margin-right: 50px;
+	font-weight: 600;
+}
+
+.container07{
+	background-image: url(../images/time07.jpg);
+	background-color: #000;
+	color: #fff;
+	text-align: right;
+}
+
+.container07 > h2{
+	margin-top: 460px;
+}
+
+.text7{
+	margin-top: 10px;
+	font-size: 2em;
+	margin-left: 1100px;
+	font-family: 'Vollkorn', serif;
+	margin-right: 90px;
+}
+
+.change7{
+	margin-top: 30px;
+	font-size: 1.8em;
+	margin-left: 1100px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	letter-spacing: 1px;
+	margin-right: 90px;
+}
+
+.container08{
+	background-image: url(../images/time08.jpg);
+	background-color: #000;
+	color: #fff;
+
+}
+
+.container08 > h2{
+	margin-top: 190px;
+}
+
+.text8{
+	margin-top: 10px;
+	font-size: 2em;
+	margin-left: 100px;
+	font-family: 'Vollkorn', serif;
+}
+
+.change8{
+	margin-top: 330px;
+	font-size: 2em;
+	margin-left: 1000px;
+	font-family: 'Vollkorn', serif;
+	text-align: right;
+	margin-right: 60px;
+}
+
+.container09{
+	background-image: url(../images/time09.jpg);
+	background-color: #000;
+	color: #130027;
+
+}
+
+.container09 > h2{
+	margin-top: 400px;
+}
+
+.text9{
+	margin-top: -80px;
+	font-size: 2em;
+	margin-left: 100px;
+	font-family: 'Vollkorn', serif;
+	color: #130027;
+}
+
+.change9{
+	margin-top: 0px;
+	font-size: 2em;
+	margin-left: 100px;
+	font-family: 'Vollkorn', serif;
+}
+
+.container10{
+	background-image: url(../images/time10.jpg);
+	background-color: #000;
+	color: #fff;
+	margin-right: 100px;
+}
+
+.container10 > h2{
+	margin-top: 500px;
+}
+
+.text10{
+	margin-top: 10px;
+	font-size: 2em;
+	margin-left: 100px;
+	font-family: 'Vollkorn', serif;
+}
+
+.change10{
+	margin-top: 20px;
+	font-size: 1.5em;
+	margin-left: 100px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin-right: 200px;
+}

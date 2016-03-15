@@ -1,15 +1,15 @@
 body{
 	height: 100%;
 	text-align: center;
-	background-color: #99ffca;
+	background-color: #ccc;
 }
 
 .wrapper{
 	width: 1200px;
-	height: 100%;
+	height: 928px;
 	margin: 0px auto;
 	box-shadow: 0px 0px 20px 0px #c8c;
-	background-color: #78f0b2;
+	background-color: #000;
 }
 
 .title{
@@ -18,7 +18,8 @@ body{
 	padding-top: 150px;
 	padding-bottom: 50px;
 	text-transform: uppercase;
-	font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
 }
 
 button{
@@ -42,4 +43,19 @@ a:hover,
 .bots:hover{
 	text-decoration: none;
 	font-size: 1.5em;
+}
+
+.Chill{
+	background-color: #00db6c;
+	border: 1px solid #00db6c;
+}
+
+.Party{
+	background-color: #ff8509;
+	border: 1px solid #ff8509;
+}
+
+.Hate{
+	background-color: #9c0000;
+	border: 1px solid #9c0000;
 }

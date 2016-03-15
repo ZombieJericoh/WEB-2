@@ -4,9 +4,13 @@ body{
 }
 
 a:link, a:visited{
-    text-decoration:none;
+    text-decoration: none;
     color:#416CE5;
     border-bottom:1px solid #416CE5;
+}
+
+a{
+    text-decoration: none;
 }
 
 h2{

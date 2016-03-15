@@ -7,6 +7,7 @@ h1 {
 	text-align: center;
 	font-size: 2em;
 	margin-bottom: 20px;
+	margin-top: 100px;
 }
 
 h2 {
@@ -25,11 +26,12 @@ p{
 
 .effects li a{
 	display: block;
-	width: 50px;
+	width: 800px;
 	height: 50px;
 	margin-left: 800px;
 	margin-bottom: 10px;
 	background: url(../images/sound.png);
+	background-repeat: no-repeat;
 	text-indent: -9999px;
 	color: transparent;
 }

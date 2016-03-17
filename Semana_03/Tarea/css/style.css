@@ -1,5 +1,7 @@
 body{
 	background-color: #c8c8c8;
+	background-image: url(../images/BG.png);
+	background-repeat: no-repeat;
 }
 
 h1 {
@@ -7,7 +9,7 @@ h1 {
 	text-align: center;
 	font-size: 2em;
 	margin-bottom: 20px;
-	margin-top: 100px;
+	margin-top: 90px;
 }
 
 h2 {
@@ -24,19 +26,32 @@ p{
 	margin-bottom: 50px;
 }
 
-.effects li a{
-	display: block;
-	width: 800px;
-	height: 50px;
-	margin-left: 800px;
-	margin-bottom: 10px;
-	background: url(../images/sound.png);
-	background-repeat: no-repeat;
-	text-indent: -9999px;
-	color: transparent;
+.effects{
+	text-align: center;
+	margin-left: 1050px;
+	margin-top: 500px;
+	color: #fff;
+	width: 500px;
 }
 
-iframe{
-	margin-left: 560px;
-	margin-top: 50px;
+li{
+	background-color: #000;
+	margin-bottom: 25px;
+	border-radius: 10%;
+	height: 50px;
+	width: 200px;
 }
+
+.effects li a{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	display: inline;
+	color: #fff;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-size: 1em;
+
+}
+

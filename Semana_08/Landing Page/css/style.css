@@ -1,4 +1,6 @@
 body{
+	height: 100%;
+	width: 100%;
 	background-color: #e6e6e6;
 	font-family: "Avenir", Helvetica, sans-serif;
 }
@@ -44,7 +46,7 @@ a{
 .photo{
 	margin-top: 105px;
 	float: left;
-    margin-left: -100px;
+    margin-left: -50px;
 }
 
 .info{

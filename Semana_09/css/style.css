@@ -1,0 +1,63 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-color: #eee;
+  background-image: url(../images/carbon_fiber.png);
+}
+
+.container {
+  width: 520px;
+  margin-top: 20px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.form-group {
+  margin-top: 5%;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.counter {
+text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 200px;
+}
+
+.btn-danger{
+  margin-right: 200px;
+  background-color: royalblue;
+  border: 1px solid blue;
+}
+
+.posts {
+  clear: both;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.posts li {
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  min-height: 42px;
+}
+
+.selected {
+  background-color: red;
+  
+}

@@ -7,27 +7,30 @@ body{
 
 .effects{
 	margin-left: 1050px;
-	margin-top: 525px;
+	margin-top: 480px;
 	color: #fff;
 	width: 600px;
 	height: 300px;
 }
 
-li{
-	background-color: #000;
-	border-radius: 5%;
-	height: 40px;
-	margin-top: 10px;
-	width: 200px;
-	padding-top: 15px;
-}
 
 .effects a{
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	color: #fff;
 	text-decoration: none;
+	margin-top: 20px;
+}
+
+button{
+	background-color: #000;
+	border-radius: 5%;
+	width: 180px;
+	padding-top: 20px;
+	padding-top: 20px;
+	margin-right: 500px;
+	color: #fff;
+	text-decoration: none;
 	font-size: 1em;
 	margin-top: 20px;
-
 }

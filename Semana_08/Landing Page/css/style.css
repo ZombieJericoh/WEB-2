@@ -62,3 +62,8 @@ h1{
 h2{
 	font-family: "Avenir", Verdana, sans-serif;
 }
+
+footer{
+	background-color: #60151e;
+	color: #fff;
+}

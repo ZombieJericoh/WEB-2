@@ -3,19 +3,19 @@ var main = function() {
     var post = $('.status-box').val();
     $('<li>').text(post).prependTo('.posts');
     $('.status-box').val('');
-    $('.counter').text('140');
+    $('.counter').text('180');
     $('.btn').addClass('disabled'); 
   });
   
   $('.status-box').keyup(function() {
     var postLength = $(this).val().length;
-    var charactersLeft = 140 - postLength;
+    var charactersLeft = 180 - postLength;
     $('.counter').text(charactersLeft);
   
     if(charactersLeft < 0) {
       $('.btn').addClass('disabled'); 
     }
-    else if(charactersLeft == 140) {
+    else if(charactersLeft == 180) {
       $('.btn').addClass('disabled');
     }
     else {

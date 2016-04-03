@@ -4,11 +4,12 @@ body{
 
 .Text{
 	position: absolute;
-	border: 2px solid red;
 	text-align: center;
 	font-size: 3em;
 	color: #fff;
 	margin-left: 700px;
+	margin-top: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Opciones del texto */
@@ -20,7 +21,7 @@ body{
 	color: #fff;
 	font-size: 30px;
 	top: -500px;
-	padding-top: 0px;
+	padding-top: 100px;
 	padding-left: 250px;
 	padding-right: 250px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -34,7 +35,7 @@ a.wrapper:hover + div{
 }
 
 img{
-	margin-left: 0px;
+	margin-left: 350px;
 	margin-top: 200px;
 	padding-top: 100px;
 }

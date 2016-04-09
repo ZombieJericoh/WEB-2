@@ -11,10 +11,6 @@ body{
 	text-align: center;
 }
 
-li + li{
-	margin: 25px;
-}
-
 h1, h2{
 	font-family: "SegoePro";
 	font-size: 1.8em;
@@ -50,6 +46,8 @@ textarea{
 button{
 	margin-left: 120px;
 }
+
+
 
 #myform label.error {
 	color: red;

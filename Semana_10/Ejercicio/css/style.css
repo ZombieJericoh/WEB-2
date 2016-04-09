@@ -34,7 +34,7 @@ body{
 }
 
 nav{
-  height: 100px;
+  height: 60px;
   width: 1680px;
   background-color: #fff;
   margin-right: 50px;
@@ -42,4 +42,5 @@ nav{
 
 .toggler{
   margin-left: 710px;
+  margin-top: 85px;
 }

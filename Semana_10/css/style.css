@@ -17,17 +17,38 @@ li + li{
 
 h1, h2{
 	font-family: "SegoePro";
-	font-size: 1.6em;
+	font-size: 1.8em;
+	font-weight: bolder;
 }
 
 h3{
 	font-family: "SegoePro";
-	font-size: 1.2em;
+	font-size: 1.4em;
 	margin-top: 50px;
 }
 
 form{
 	margin-bottom: 45px;
+	text-align: left;
+	margin-left: 490px;
+}
+
+li{
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+
+input{
+	border: 1px solid black;
+	width: 150px;
+}
+
+textarea{
+	border: 1px solid black;
+}
+
+button{
+	margin-left: 120px;
 }
 
 #myform label.error {
@@ -63,8 +84,7 @@ a:hover{
 }
 
 .container{
-	width: 85%;
-	height: 100%;
+	width: 75%;
 	margin: 0 auto;
 	background-color: #ccc;
 }

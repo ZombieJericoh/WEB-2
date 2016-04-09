@@ -1,0 +1,75 @@
+@font-face {
+	font-family: "SegoePro";
+	src: url(../font/SegoePro-Bold.ttf);
+	src: url(../font/SegoePro-Light.ttf);
+	src: url(../font/SegoePro-Medium.ttf);
+}
+body{
+	height: 100%;
+	width: 100%;
+	font-family: "SegoePro-Light";
+	text-align: center;
+}
+
+li + li{
+	margin: 25px;
+}
+
+h1, h2{
+	font-family: "SegoePro";
+	font-size: 1.6em;
+}
+
+h3{
+	font-family: "SegoePro";
+	font-size: 1.2em;
+	margin-top: 50px;
+}
+
+form{
+	margin-bottom: 45px;
+}
+
+#myform label.error {
+	color: red;
+	font-size: 11px;
+	font-family: "SegoePro", Helvetica, sans-serif;
+	text-transform: lowercase;
+	position: relative;
+}
+
+.nav{
+	background-color: #107C10;
+	text-align: center;
+}
+
+.nav a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.dropdown{
+	display: inline-block;
+	height: 40px;
+	margin-top: 25px;
+}
+
+.dropdown li a{
+	height: 100px;
+}
+
+a:hover{
+	background-color: #006600;
+}
+
+.container{
+	width: 85%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #ccc;
+}
+
+.live{
+	width: 250px;
+	height: 150px;
+}

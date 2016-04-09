@@ -1,41 +1,45 @@
-  body{
-    font: 62.5% "Trebuchet MS", sans-serif;
-    margin: 50px;
-  }
-  .demoHeaders {
-    margin-top: 2em;
-  }
-  #dialog-link {
-    padding: .4em 1em .4em 20px;
-    text-decoration: none;
-    position: relative;
-  }
-  #dialog-link span.ui-icon {
-    margin: 0 5px 0 0;
-    position: absolute;
-    left: .2em;
-    top: 50%;
-    margin-top: -8px;
-  }
-  #icons {
-    margin: 0;
-    padding: 0;
-  }
-  #icons li {
-    margin: 2px;
-    position: relative;
-    padding: 4px 0;
-    cursor: pointer;
-    float: left;
-    list-style: none;
-  }
-  #icons span.ui-icon {
-    float: left;
-    margin: 0 4px;
-  }
-  .fakewindowcontain .ui-widget-overlay {
-    position: absolute;
-  }
-  select {
-    width: 200px;
-  }
+body{
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.toggler{
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+
+#button{
+  padding: .5em 1em;
+  text-decoration: none;
+}
+
+#effect{
+  width: 240px;
+  height: 135px;
+  padding: 0.4em;
+  position: relative;
+}
+
+#effect h3{
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}
+
+.ui-effects-transfer{
+  border: 2px dotted gray;
+}
+
+nav{
+  height: 100px;
+  width: 1680px;
+  background-color: #fff;
+  margin-right: 50px;
+}
+
+.toggler{
+  margin-left: 710px;
+}

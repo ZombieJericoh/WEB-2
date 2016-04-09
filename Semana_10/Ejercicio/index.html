@@ -1,154 +1,92 @@
 <!doctype html>
-<html lang="us">
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>jQuery UI Example Page</title>
-  <link href="css/jquery-ui.css" rel="stylesheet">
+  <title>jQuery UI Effects - Effect demo</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script>
+  $(function() {
+    // run the currently selected effect
+    function runEffect() {
+      // get effect type from
+      var selectedEffect = $( "#effectTypes" ).val();
+ 
+      // most effect types need no options passed by default
+      var options = {};
+      // some effects have required parameters
+      if ( selectedEffect === "scale" ) {
+        options = { percent: 0 };
+      } else if ( selectedEffect === "transfer" ) {
+        options = { to: "#button", className: "ui-effects-transfer" };
+      } else if ( selectedEffect === "size" ) {
+        options = { to: { width: 200, height: 60 } };
+      }
+ 
+      // run the effect
+      $( "#effect" ).effect( selectedEffect, options, 500, callback );
+    };
+ 
+    // callback function to bring a hidden box back
+    function callback() {
+      setTimeout(function() {
+        $( "#effect" ).removeAttr( "style" ).hide().fadeIn();
+      }, 1000 );
+    };
+ 
+    // set effect from select menu value
+    $( "#button" ).click(function() {
+      runEffect();
+      return false;
+    });
+  });
+  </script>
 </head>
 <body>
+ 
+<nav>
+  <ul>
+    
+  </ul>
+</nav>
 
-<h1>Welcome to jQuery UI!</h1>
+<div class="toggler">
+  <div id="effect" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all">Effects Gallery</h3>
+    <p>
+      Choose the effect you want from the list.
 
-<div class="ui-widget">
-  <p>This page demonstrates the widgets and theme you selected in Download Builder. Please make sure you are using them with a compatible jQuery version.</p>
+      <br>
+      <br>
+
+      Play with this.
+    </p>
+  </div>
 </div>
-
-<h1>YOUR COMPONENTS:</h1>
-
-
-<!-- Accordion -->
-<h2 class="demoHeaders">Accordion</h2>
-<div id="accordion">
-  <h3>First</h3>
-  <div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
-  <h3>Second</h3>
-  <div>Phasellus mattis tincidunt nibh.</div>
-  <h3>Third</h3>
-  <div>Nam dui erat, auctor a, dignissim quis.</div>
-</div>
-
-<!-- Slider -->
-<h2 class="demoHeaders">Slider</h2>
-<div id="slider"></div>
-
-<script src="js/jquery.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script>
-
-$( "#accordion" ).accordion();
-
-
-
-var availableTags = [
-  "ActionScript",
-  "AppleScript",
-  "Asp",
-  "BASIC",
-  "C",
-  "C++",
-  "Clojure",
-  "COBOL",
-  "ColdFusion",
-  "Erlang",
-  "Fortran",
-  "Groovy",
-  "Haskell",
-  "Java",
-  "JavaScript",
-  "Lisp",
-  "Perl",
-  "PHP",
-  "Python",
-  "Ruby",
-  "Scala",
-  "Scheme"
-];
-$( "#autocomplete" ).autocomplete({
-  source: availableTags
-});
-
-
-
-$( "#button" ).button();
-$( "#radioset" ).buttonset();
-
-
-
-$( "#tabs" ).tabs();
-
-
-
-$( "#dialog" ).dialog({
-  autoOpen: false,
-  width: 400,
-  buttons: [
-    {
-      text: "Ok",
-      click: function() {
-        $( this ).dialog( "close" );
-      }
-    },
-    {
-      text: "Cancel",
-      click: function() {
-        $( this ).dialog( "close" );
-      }
-    }
-  ]
-});
-
-// Link to open the dialog
-$( "#dialog-link" ).click(function( event ) {
-  $( "#dialog" ).dialog( "open" );
-  event.preventDefault();
-});
-
-
-
-$( "#datepicker" ).datepicker({
-  inline: true
-});
-
-
-
-$( "#slider" ).slider({
-  range: true,
-  values: [ 17, 67 ]
-});
-
-
-
-$( "#progressbar" ).progressbar({
-  value: 20
-});
-
-
-
-$( "#spinner" ).spinner();
-
-
-
-$( "#menu" ).menu();
-
-
-
-$( "#tooltip" ).tooltip();
-
-
-
-$( "#selectmenu" ).selectmenu();
-
-
-// Hover states on the static widgets
-$( "#dialog-link, #icons li" ).hover(
-  function() {
-    $( this ).addClass( "ui-state-hover" );
-  },
-  function() {
-    $( this ).removeClass( "ui-state-hover" );
-  }
-);
-</script>
+ 
+<select name="effects" id="effectTypes">
+  <option value="blind">Blind</option>
+  <option value="bounce">Bounce</option>
+  <option value="clip">Clip</option>
+  <option value="drop">Drop</option>
+  <option value="explode">Explode</option>
+  <option value="fade">Fade</option>
+  <option value="fold">Fold</option>
+  <option value="highlight">Highlight</option>
+  <option value="puff">Puff</option>
+  <option value="pulsate">Pulsate</option>
+  <option value="scale">Scale</option>
+  <option value="shake">Shake</option>
+  <option value="size">Size</option>
+  <option value="slide">Slide</option>
+  <option value="transfer">Transfer</option>
+</select>
+ 
+<button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+ 
+ 
 </body>
 </html>
